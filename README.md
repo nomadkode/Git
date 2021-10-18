@@ -80,14 +80,25 @@ git revert nomor_commit
 
 ## Menambah Branch baru
 
-
 ```bash
 git branch nama_branch
 ```
 
 ## Berpindah Branch
 
-
 ```bash
 git checkout nama_branch
 ```
+
+### Mengubah nama commit
+
+```bash
+git commit --amend -m "Message Commit Terbaru"
+```
+
+### Mengubah origin url
+
+```bash
+git remote set-url urlorigin-terbaru.git
+```
+
