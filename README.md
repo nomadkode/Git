@@ -90,6 +90,12 @@ git branch nama_branch
 git checkout nama_branch
 ```
 
+## Menambah Branch baru + Checkout
+Perintah ini secara otomatis membuat branch baru dan langsung checkout ke branch baru tersebut.
+```
+git checkout -b nama_branch
+```
+
 ### Mengubah nama commit
 
 ```bash
